@@ -1,0 +1,26 @@
+.b {
+	background-image: url(cards2.png);
+	background-repeat: no-repeat;
+	width: 140px;
+	height: 190px;	
+	overflow: hidden;
+	background-position: -288px -194px;
+}
+
+.c {
+	background-image: url(cards2.png);
+	background-repeat: no-repeat;
+	width: 140px;
+	height: 190px;	
+	overflow: hidden;
+	background-position: -144px -970px;
+}
+
+.d {
+	background-image: url(cards2.png);
+	background-repeat: no-repeat;
+	width: 140px;
+	height: 190px;	
+	overflow: hidden;
+	background-position: -432px -2328px;
+}

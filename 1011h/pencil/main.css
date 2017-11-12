@@ -1,0 +1,40 @@
+body {
+  height: 100vh;
+  background: repeating-linear-gradient(to bottom, #3E3E3E 0, #3E3E3E 1px, transparent 1px, transparent 20px),
+              repeating-linear-gradient(to right, #3E3E3E 0, #3E3E3E 1px, transparent 1px, transparent 20px);
+}
+
+.telo1 {
+	border-left: 30px solid #FFD308;	
+	width: 60vw;
+	height: 40px;	
+	background: linear-gradient(to bottom, #2945BD 0%, #6680EF 50%, #6680EF 50%, #2945BD 100% );
+	margin-right: 80px;
+}
+
+.dub1 {
+	width: 0px;
+	height: 0px;
+	border-left: 40px solid #6F7D67;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	margin-left: 60vw;
+	
+}
+
+.telo2 {
+	border-top: 30px solid #FFD308	;
+	margin-top: 50px;
+	width: 40px;
+	height: 60vh;	
+	background: linear-gradient(to right, #2945BD 0%, #2945BD 33%, #6680EF 34%, #6680EF 66%, #2945BD 67%, #2945BD 100% );
+
+}
+
+.dub2 {
+	width: 0px;
+	height: 0px;	
+	border-top: 40px solid #6F7D67;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+}
