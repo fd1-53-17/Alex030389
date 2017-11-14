@@ -1,0 +1,39 @@
+body {
+	font-size: 25px;
+}
+
+div {
+	width: 710px;
+	height: 66px;
+	border: 1px solid grey;
+}
+
+span {
+	display: inline-block;		
+	margin-top: 15px;
+}
+
+
+ul {
+	list-style-type: none;
+	display: inline;	
+}
+
+li {
+	width: 46px;
+	height: 38px;
+	border: 1px solid #dbd7d0;
+	background-color: #ebe8df;
+	text-align: center;	
+	float: right;	
+	margin: 9px 3px;
+	color: #b19357;
+	padding-top: 8px;
+	
+}
+
+.vip {
+	border: 1px solid #7d3518;
+	background-color: #a44823;
+	color: #faf4f2;	
+}
