@@ -1,0 +1,72 @@
+.wraper {
+	width: 1200px;
+	margin: auto;
+	font: 16px verdana, arial, sans-serif;
+}
+
+header {
+	height: 44px;
+	background-color: #add8e6;
+	text-align: center;	
+	font-size: 24px;
+	color: #0000ff;
+	letter-spacing: 2px;
+	position: relative;
+}
+
+aside {
+	width: 200px;
+	background-color: #f0e68c;	
+	display: inline-block;
+}
+
+content {
+	width: 960px;		
+	float: right;
+	padding: 0 20px;
+	display: inline-block;
+	background: url(../img/boll.jpg) top right repeat-y;
+}
+
+img {
+	float: left;
+	margin: 0 20px 10px 0px;	
+}
+
+h1 {
+	text-align: center;
+	margin: 20px 0px 30px 0px;
+	font-size: 24px;
+}
+
+.vidy {
+	margin-left: 11px;
+	font-weight: bold;
+}
+
+li {
+	margin-left: -8px;
+}
+
+footer {
+	height: 64px;
+	background-color: #add8e6;
+	font-size: 24px;	
+	letter-spacing: 2px;
+	text-align: center;
+	color: #0000ff;		
+	clear: both;
+	position: relative;
+}
+
+.priv1 {
+	position: absolute;
+	top: 7px;
+	left: 320px;
+}
+
+.priv2 {
+	position: absolute;
+	top: 15px;
+	left: 354px;
+}
