@@ -1,0 +1,120 @@
+.chess {
+	text-align: center;
+	font-size: 22px;
+}
+
+.gor {
+	width: calc(95vmin / 10);
+	height: 95vmin;	
+	float: left;	
+
+}
+
+.nol {	
+	outline: 1px solid black;
+	height: calc(95vmin / 10);
+}
+
+
+.num {
+	height: calc(95vmin / 10);
+	outline: 1px solid black;
+}
+
+.abc {
+	height: calc(95vmin / 10);
+	outline: 1px solid black;
+}
+
+.ver {
+	height: calc(95vmin / 10);
+	outline: 1px solid black;
+}
+
+.cv {
+	background-color: silver;
+}
+
+.peshka {
+	background-image: url(../img/black/pesh.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 60%;
+}
+
+.ferz {
+	background-image: url(../img/black/ferz.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 90%;
+}
+
+.slon {
+	background-image: url(../img/black/slon.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 90%;
+}
+
+.horse {
+	background-image: url(../img/black/hourse.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 90%;
+}
+
+.qu {
+	background-image: url(../img/black/qu.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 90%;
+}
+
+.king {
+	background-image: url(../img/black/king.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 90%;
+}
+
+.peshka_w {
+	background-image: url(../img/white/pesh.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 60%;
+}
+
+.ferz_w {
+	background-image: url(../img/white/ferz.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 90%;
+}
+
+.slon_w {
+	background-image: url(../img/white/slon.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 90%;
+}
+
+.horse_w {
+	background-image: url(../img/white/hors.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 90%;
+}
+
+.qu_w {
+	background-image: url(../img/white/qu.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 90%;
+}
+
+.king_w {
+	background-image: url(../img/white/king.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 90%;
+}
