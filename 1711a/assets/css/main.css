@@ -1,0 +1,152 @@
+.wrapper {
+	width: 960px;
+	margin: auto;	
+}
+
+header {	
+	padding: 12px 0 20px 0;
+	position: relative;
+	border-bottom: 1px solid #BC4747;
+}
+
+.logo {
+	width: 122px;
+	height: 106px;
+	background-color: #BC4747;a		
+	position: relative;
+	top: 0px;
+	left: 0;
+}
+
+.info {
+	width: 278px;
+	height: 106px;
+	background-color: #BC4747;
+	position: absolute;
+	top: 12px;
+	left: 145px;
+}
+
+.tell {
+	width: 515px;
+	height: 106px;
+	background-color: #BC4747;
+	position: absolute;
+	top: 12px;
+	right: 0px;	
+}
+
+hr {
+	color: red;
+}
+
+main {
+	height: 793px;	
+	position: relative;
+}
+
+aside {
+	width: 184px;
+	height: 773px;	
+	position: relative;
+	top: 20px;
+}
+
+.aside-top {	
+	height: 335px;
+	background-color: #BC4747;
+}	
+
+.aside-bottom {
+	height: 134px;
+	width: 184px;
+	background-color: #BC4747;
+	position: absolute;
+	bottom: 0px;	
+}
+
+article {
+	width: 756px;
+	height: 773px;	
+	position: absolute;
+	right: 0;
+	top: 20px;	
+}
+
+.article-1 {
+	height: 210px;
+	background-color: #BC4747;
+}
+
+ul {
+	margin-left: -59px;
+}
+li {
+	width: 135px;
+	height: 153px;
+	background-color: #BC4747;
+	margin: 0 0 20px 20px;
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+}
+
+.article-bot-right {
+	width: 368px;
+	height: 200px;
+	background-color: #BC4747;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.article-bot-left {
+	width: 368px;
+	height: 200px;
+	background-color: #BC4747;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+footer {	
+	padding: 20px 0;	
+	position: relative;
+	top: 20px;
+	border-top: 1px solid #BC4747;
+}
+
+.fut-left {
+	width: 297px;
+	height: 180px;
+	background-color: #BC4747;
+	position: relative;
+		
+}
+
+.fut-centr {
+	width: 297px;
+	height: 180px;
+	background-color: #BC4747;
+	position: absolute;
+	top: 20px;
+	left: 317px;
+}
+
+.fut-right-t {
+	width: 326px;
+	height: 80px;
+	background-color: #BC4747;
+	position: absolute;
+	top: 20px;
+	right: 0;
+}
+
+.fut-right-b {
+	width: 326px;
+	height: 80px;
+	background-color: #BC4747;
+	position: absolute;
+	bottom: 20px	;
+	right: 0;
+}
