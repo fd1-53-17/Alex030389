@@ -1,0 +1,153 @@
+.wrapper {
+	width: 500px;	
+	margin: auto;
+	text-align: center;
+	font-size: 18px;	
+}
+
+.rad8 {	
+	position: relative;
+}
+
+.wh {
+	width: 50px;
+	height: 35px;
+	padding-top: 15px;	
+	outline: 1px solid black;
+}
+
+.position1 {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.position2 {
+	position: absolute;
+	top: 0;
+	left: 50px;
+}
+
+.position3 {
+	position: absolute;
+	top: 0;
+	left: 100px;
+}
+
+.position4 {
+	position: absolute;
+	top: 0;
+	left: 150px;
+}
+
+.position5 {
+	position: absolute;
+	top: 0;
+	left: 200px;
+}
+
+.position6 {
+	position: absolute;
+	top: 0;
+	left: 250px;
+}
+
+.position7 {
+	position: absolute;
+	top: 0;
+	left: 300px;
+}
+
+.position8 {
+	position: absolute;
+	top: 0;
+	left: 350px;
+}
+
+.position9 {
+	position: absolute;
+	top: 0;
+	left: 400px;
+}
+
+.position10	 {
+	position: absolute;
+	top: 0;
+	left: 450px;
+}
+
+.black {
+	background-color: grey;
+}
+
+.ferz {	
+	background-image: url(../img/white/ferz.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.slon {	
+	background-image: url(../img/white/slon.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.hors {	
+	background-image: url(../img/white/hors.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.king {	
+	background-image: url(../img/white/king.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.qu {	
+	background-image: url(../img/white/qu.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.pesh {	
+	background-image: url(../img/white/pesh.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.ferzb {	
+	background-image: url(../img/black/ferz.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.slonb {	
+	background-image: url(../img/black/slon.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.horsb {	
+	background-image: url(../img/black/hors.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.kingb {	
+	background-image: url(../img/black/king.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.qub {	
+	background-image: url(../img/black/qu.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.peshb {	
+	background-image: url(../img/black/pesh.png);
+	background-position: center center;
+	background-repeat: no-repeat;	
+}
