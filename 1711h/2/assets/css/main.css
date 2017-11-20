@@ -81,73 +81,73 @@
 }
 
 .ferz {	
-	background-image: url(../img/white/ferz.png);
-	background-position: center center;
+	background-image: url(../img/chess.png);
+	background-position: -103px -50px;
 	background-repeat: no-repeat;
 }
 
 .slon {	
-	background-image: url(../img/white/slon.png);
-	background-position: center center;
+	background-image: url(../img/chess.png);
+	background-position: -156px -50px;
 	background-repeat: no-repeat;
 }
 
 .hors {	
-	background-image: url(../img/white/hors.png);
-	background-position: center center;
+	background-image: url(../img/chess.png);
+	background-position: -209px -50px;
 	background-repeat: no-repeat;
 }
 
 .king {	
-	background-image: url(../img/white/king.png);
-	background-position: center center;
+	background-image: url(../img/chess.png);
+	background-position: 4px -50px;
 	background-repeat: no-repeat;
 }
 
 .qu {	
-	background-image: url(../img/white/qu.png);
-	background-position: center center;
+	background-image: url(../img/chess.png);
+	background-position: -49px -50px;
 	background-repeat: no-repeat;
 }
 
 .pesh {	
-	background-image: url(../img/white/pesh.png);
-	background-position: center center;
+	background-image: url(../img/chess.png);
+	background-position: -262px -50px;
 	background-repeat: no-repeat;
 }
 
 .ferzb {	
-	background-image: url(../img/black/ferz.png);
-	background-position: center center;
+	background-image: url(../img/chess.png);
+	background-position: -103px 0;
 	background-repeat: no-repeat;
 }
 
 .slonb {	
-	background-image: url(../img/black/slon.png);
-	background-position: center center;
+	background-image: url(../img/chess.png);
+	background-position: -156px 0;
 	background-repeat: no-repeat;
 }
 
 .horsb {	
-	background-image: url(../img/black/hors.png);
-	background-position: center center;
+	background-image: url(../img/chess.png);
+	background-position: -209px 0;
 	background-repeat: no-repeat;
 }
 
 .kingb {	
-	background-image: url(../img/black/king.png);
-	background-position: center center;
+	background-image: url(../img/chess.png);
+	background-position: 4px 0;
 	background-repeat: no-repeat;
 }
 
 .qub {	
-	background-image: url(../img/black/qu.png);
-	background-position: center center;
+	background-image: url(../img/chess.png);
+	background-position: -49px 0;
 	background-repeat: no-repeat;
 }
 
 .peshb {	
-	background-image: url(../img/black/pesh.png);
-	background-position: center center;
+	background-image: url(../img/chess.png);
+	background-position: -262px 0;
 	background-repeat: no-repeat;	
 }
