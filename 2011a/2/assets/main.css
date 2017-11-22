@@ -1,0 +1,19 @@
+ul{
+	padding: 0;
+	font-family: "untitled-font-1";
+}
+
+ul:first-child::before{
+	content: "a";
+}
+
+li{
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+li:not(:last-child)::after{
+	content: "|";
+	margin-left: 20px;
+}
