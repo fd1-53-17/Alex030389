@@ -1,0 +1,47 @@
+.wrapper {
+	width: 300px;
+	height: 350px;
+	margin: auto;	
+	position: relative;
+}
+
+.troyka {
+	background-image: url(../img/cards2.png);
+	background-repeat: no-repeat;
+	width: 140px;
+	height: 190px;	
+	overflow: hidden;
+	background-position: -288px -194px;
+	border-radius: 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.sem {
+	background-image: url(../img/cards2.png);
+	background-repeat: no-repeat;
+	width: 140px;
+	height: 190px;	
+	overflow: hidden;
+	background-position: -144px -970px;
+	border-radius: 15px;
+	position: absolute;
+	top: 80px;
+	left: 80px;
+	z-index: 1;
+}
+
+.tuz {
+	background-image: url(../img/cards2.png);
+	background-repeat: no-repeat;
+	width: 140px;
+	height: 190px;	
+	overflow: hidden;
+	background-position: -432px -2328px;
+	border-radius: 15px;
+	position: absolute;
+	top: 160px;
+	left: 160px;
+}

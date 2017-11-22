@@ -1,0 +1,99 @@
+.row {
+	height: 18px;
+}
+
+.s12 {
+	position: absolute;
+	top: 8px;
+	left: 22px;
+}
+
+.s13 {
+	position: absolute;
+	top: 8px;
+	left: 36px;
+}
+
+.s22 {
+	position: absolute;
+	top: 26px;
+	left: 36px;
+}
+
+.s23 {
+	position: absolute;
+	top: 26px;
+	left: 22px;
+}
+
+.s31 {
+	position: absolute;
+	top: 44px;
+	left: 22px;
+}
+
+.s32 {
+	position: absolute;
+	top: 44px;
+	left: 8px;
+}
+
+.s33 {
+	position: absolute;
+	top: 44px;
+	left: 36px;
+}
+
+.s41 {
+	position: absolute;
+	top: 62px;
+	left: 36px;
+}
+
+.s42 {
+	position: absolute;
+	top: 62px;
+	left: 8px;
+}
+
+.s43 {
+	position: absolute;
+	top: 62px;
+	left: 22px;
+}
+
+.s51 {
+	position: absolute;
+	top: 80px;
+	left: 22px;
+}
+
+.s52 {
+	position: absolute;
+	top: 80px;
+	left: 36px;
+}
+
+.s53 {
+	position: absolute;
+	top: 80px;
+	left: 8px;
+}
+
+.s61 {
+	position: absolute;
+	top: 98px;
+	left: 36px;
+}
+
+.s62 {
+	position: absolute;
+	top: 98px;
+	left: 22px;
+}
+
+.s63 {
+	position: absolute;
+	top: 98px;
+	left: 8px;
+}
