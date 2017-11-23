@@ -1,0 +1,54 @@
+body {
+	font: 15px/1.5em verdana, sans-serif;
+}
+
+.wrapper {
+	width: 585px;
+	height: 400px;
+	margin: auto;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 1.5em;
+}
+
+.ramka {
+	border-radius: 5px;
+	background-color: #fafafa;
+	padding: 10px 10px;
+	margin: 20px 0;
+	font: 15px monospace;
+}
+
+.bgblu {
+	background-color: #fafafa;
+	border-radius: 5px;
+	padding: 3px 8px;
+}
+
+.green {
+	color: green;
+}
+
+.red {
+	color: red;
+}
+
+.blue {
+	color: blue;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+	color: #989788;
+}
+
+.skrol {
+	overflow-x: auto;
+	white-space: nowrap;
+}

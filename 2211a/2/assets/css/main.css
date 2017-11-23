@@ -1,0 +1,42 @@
+body {
+	font: 16px/1.6em arial, sans-serif;
+}
+.wrapper {
+	width: 600px;
+	margin: auto;
+}
+
+.style {
+	background-color: #f6f5f3;
+	border: 1px solid #e6e6e6;
+	padding: 5px;
+	margin: 20px 0;
+	font: 15px courier, monospase;
+}
+
+.norm {
+	background-color: #f6f5f3;
+	border: 1px solid #e0e0e0;
+	border-radius: 3px;
+	padding: 5px;
+}
+
+.ramka-skrol {
+	height: 30px;
+	overflow-x: auto;
+	white-space: nowrap;
+}
+
+.problem {
+	margin: 20px 0;
+	font-weight: bold; 
+}
+
+.cod {
+	color: #2b9897;
+}
+
+.url {
+	color: #989788;
+	font-style: italic;
+}

@@ -1,0 +1,56 @@
+body {
+	background-color: #278a89;
+}
+.one {
+	width: 40vw;	
+	height: 30vw;
+	border: 2px solid black;
+	margin: auto;
+	padding: 4vw;
+}
+
+.two {
+	width: 40vw;	
+	height: 30vw;	
+	position: relative;
+}
+
+.red {
+	width: 10vw;
+	height: 8vw;
+	background-color: red;
+	border: 2px solid black;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.green {
+	width: 25vw;
+	height: 18vw;
+	background-color: green;
+	border: 2px solid black;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.blue {
+	width: 10vw;
+	height: 18vw;
+	background-color: blue;
+	border: 2px solid black;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.yellow {
+	width: 25vw;
+	height: 8vw;
+	background-color: yellow;
+	border: 2px solid black;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
