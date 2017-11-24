@@ -1,0 +1,43 @@
+.one {
+	width: 24vw;
+	height: 10vw;
+	padding: 3vw 4vw;
+	background-color: #bdbdbd;	
+}
+
+.two {
+	width: 24vw;
+	height: 10vw;		
+	position: relative;
+}
+
+.trig1 {
+	width: 0;
+	height: 0;
+	border-bottom: 3vw solid green;
+	border-left: 3vw solid transparent;
+	border-right: 3vw solid transparent;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.trig2 {
+	width: 0;
+	height: 0;
+	border-top: 10vw solid green;
+	border-left: 5vw solid transparent;
+	border-right: 5vw solid transparent;
+	margin: auto;	
+}
+
+.trig3 {
+	width: 0;
+	height: 0;
+	border-bottom: 3vw solid green;
+	border-left: 3vw solid transparent;
+	border-right: 3vw solid transparent;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}

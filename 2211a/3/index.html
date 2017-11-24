@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+	<div class="wrapper">
+	<h1>Creating a chart</h1>
+	<div>To create a chart, we need to instantiale the <span class="bgblu">Chart</span> class. To do this, we need to pass in the 2d context of where we want to draw the chart. Here's an example.</div>
+	<div class="ramka">&lt;canvas <span class="green">id=<span class="red">&quot;myChart&quot;</span> width=<span class="red">&quot;400&quot;</span> height=<span class="red">&quot;400&quot;</span></span>&gt;&lt;/canvas&gt</div>
+	<div class="ramka">
+		<span class="italic">// Get the context of the canvas element we want to select</span><br>
+		<span class="bold">var</span> ctx = <span class="blue">document</span>.getElementById(<span class="red">&quot;myChart&quot;</span>).getContext(<span class="red">&quot;2d&quot;</span>);<br>
+		<span class="bold">var</span> myNewChart = <span class="bold">new</span> Chart(ctx).PolfrArea(data);<br></div>
+	<div>We can also get the context of our canvas with jQuery. To do this, we need to get the DOM node out of the jQuery collection, and call the <span class="bgblu">getContext(&quot;2d&quot;)</span> method on that.</div>
+	<div class="ramka skrol">
+		<span class="italic">// Get context with jQuery - using jQuery's .get() method.</span><br>
+		<span class="bold">var</span> ctx = $(<span class="red">&quot;#myChart&quot;</span>.get(<span class="blue">0</span>).getContext(<span class="red">&quot;2d&quot;</span>);<br>
+		<span class="italic">// This will get the first returned node in the jQuery collection get</span><br>
+		<span class="bold">var</span> myNewChart = <span class="bold">new</span> Chart(ctx);<br>
+	</div>
+	</div>
+</body>
+</html>

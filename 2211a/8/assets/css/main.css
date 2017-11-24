@@ -1,0 +1,32 @@
+.main {
+	width: 510px;
+	height: 48px;
+	border-bottom: 4px solid #cbcbcb;
+	list-style-type: none;
+	text-align: center;
+	padding-top: 20px;
+}
+
+a {
+	font: 20px verdana, sans-serif;
+	color: #1c90b9;
+	padding: 8px 12px;
+	margin: 0 10px 0 0;	
+}
+
+a:hover {
+	font: 20px verdana, sans-serif;
+	color: white;
+	padding: 8px 12px 28px 12px;
+	margin: 0 10px 0 0;	
+	background: linear-gradient(to bottom, #fc6e24 40px, transparent 41px, transparent 55px, #fc6e24 56px);
+	text-decoration: none;	
+}
+
+.margin {
+	margin-right: 0; 
+}
+
+.margin:hover {
+	margin-right: 0; 
+}

@@ -1,0 +1,45 @@
+.main {
+	width: 540px;
+	height: 102px;	
+	padding: 8px 12px 0 12px;
+	margin: auto;
+}
+
+.baner {
+	width: 135px;
+	height: 80px;
+	border: 1px dashed #e62435;
+	border-radius: 8px;
+	float: right;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.baner-left {	
+	line-height: 2.7;
+}
+
+
+.stayler {
+	font: bold 18px verdana, sans-serif;	
+}
+
+i.fa {	
+	color: #bb121d;
+	font-size: 25px;
+	margin-right: 15px;
+}
+
+.dekab {
+	font: bold 20px verdana, sans-serif;
+	color: #f80e23;
+}
+
+.skid {
+	font: bold 18px verdana, sans-serif;
+}
+
+.proc {
+	font: bold 40px verdana, sans-serif;
+	color: #f80e23
+}
