@@ -1,0 +1,45 @@
+.wrapper {
+	margin: auto;
+	padding: 100px;
+	position: relative;
+	box-shadow: inset 0 0 0 5px black,
+				inset 0 0 0 9px white,
+				inset 0 0 0 14px black,
+				inset 0 0 0 23px white,
+				inset 0 0 0 28px black,
+				inset 0 0 0 32px white,
+				inset 0 0 0 37px black;
+}
+
+.content {
+	text-align: center;
+	width: 80vmax;
+	font: 30px verdana, sans-serif;
+}
+
+.tl {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.tr {
+	position: absolute;
+	top: 0;
+	right: 0;
+	transform: rotate(90deg);
+}
+
+.bl {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transform: rotate(270deg);
+}
+
+.br {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	transform: rotate(180deg);
+}
