@@ -1,0 +1,16 @@
+.ramka {
+	width: 150px;
+	height: 150px;
+	box-shadow: inset 10px 10px 0 #ff00ff,
+	inset -10px -10px 0 #ff00ff,
+	inset 20px 20px 0 #ff0000,
+	inset -20px -20px 0 #ff0000,
+	inset 30px 30px 0 #0000ff,
+	inset -30px -30px 0 #0000ff,
+	inset 40px 40px 0 #008000,
+	inset -40px -40px 0 #008000,
+	inset 50px 50px 0 #ffff00,
+	inset -50px -50px 0 #ffff00,
+	inset 60px 60px 0 #000000,
+	inset -60px -60px 0 #000000;
+}
