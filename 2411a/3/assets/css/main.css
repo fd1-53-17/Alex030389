@@ -1,0 +1,23 @@
+div {
+	transition: transform 1s;
+}
+.row {
+	height: 108px;
+	width: 24px;
+	float: left;
+}
+.a1, .a2, .a3 , .a4, .a5 {
+	display: inline-block;
+}
+.row:hover .a2 {
+	transform: translate(-8px, 0);
+}
+.row:hover .a3 {
+	transform: translate(8px, 0);
+}
+.row:hover .a4 {
+	transform: translate(16px, 0);
+}
+.row:hover .a5 {
+	transform: translate(-16px, 0);
+}
