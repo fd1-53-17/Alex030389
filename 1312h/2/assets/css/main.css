@@ -1,0 +1,140 @@
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    margin: 0 -10px;
+}
+
+header div {
+    margin: 10px;
+    height: 110px;
+    background-color: grey;
+}
+
+header div:nth-child(1) {
+    flex-grow: 1.2;
+}
+
+header div:nth-child(2) {
+    flex-grow: 2.8;
+}
+
+header div:nth-child(3) {
+    flex-grow: 5;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px 10px 0;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+aside div:first-child {
+    height: 335px;
+    background-color: grey;
+}
+
+aside div:last-child {
+    background-color: grey;
+    height: 135px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    max-width: 760px;
+    flex-grow: 4;
+    position: relative;
+}
+
+article div:nth-child(1) {
+    background-color: lightgray;
+    height: 210px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 10px -10px;
+    justify-content: flex-start;
+}
+
+li {
+    list-style-type: none;
+    background-color: lightgray;
+    height: 153px;
+    width: 136px;
+    margin: 10px;
+}
+
+article div:nth-child(3) {
+    background-color: lightgray;
+    height: 200px;
+    margin: 0;
+    align-self: flex-start;
+    width: calc(50% - 10px);
+}
+
+article div:nth-child(4) {
+    background-color: lightgray;
+    height: 200px;
+    margin: 0;
+    align-self: flex-start;
+    width: calc(50% - 10px);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+hr {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    position: relative;
+    margin: 0 -10px;
+}
+
+footer div:nth-child(1) {
+    background-color: grey;
+    height: 180px;
+    margin: 10px;
+    width: calc(33.33% - 10px);
+}
+
+footer div:nth-child(2) {
+    background-color: grey;
+    height: 180px;
+    margin: 10px;
+    width: calc(33.33% - 10px);
+}
+
+footer div:nth-child(3) {
+    background-color: grey;
+    height: 78px;
+    margin: 10px;
+    width: calc(33.33% - 10px);
+}
+
+footer div:nth-child(4) {
+    background-color: grey;
+    height: 78px;
+    margin: 10px;
+    width: calc(33.33% - 20px);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

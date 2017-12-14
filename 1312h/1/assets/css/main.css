@@ -1,0 +1,151 @@
+.chessTable {
+    margin: 0 auto;
+    height: 97vmin;
+    width: 97vmin;
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div div {
+    height: 10%;
+    width: 10%;
+    background-color: white;
+    outline: 1px solid black;
+}
+
+div div:nth-child(odd):nth-child(1n + 12):nth-child(-1n + 20),
+div div:nth-child(even):nth-child(1n + 21):nth-child(-1n + 29),
+div div:nth-child(odd):nth-child(1n + 32):nth-child(-1n + 39),
+div div:nth-child(even):nth-child(1n + 41):nth-child(-1n + 49),
+div div:nth-child(odd):nth-child(1n + 52):nth-child(-1n + 59),
+div div:nth-child(even):nth-child(1n + 61):nth-child(-1n + 69),
+div div:nth-child(odd):nth-child(1n + 72):nth-child(-1n + 79),
+div div:nth-child(even):nth-child(1n + 81):nth-child(-1n + 89) {
+    background-color: grey;
+}
+
+div div {
+    font-size: 5vmin;
+    position: relative;
+}
+
+div div:nth-child(2)::after,
+div div:nth-child(92)::after {
+    content: "A";
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+div div:nth-child(3)::after,
+div div:nth-child(93)::after {
+    content: "B";
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+div div:nth-child(4)::after,
+div div:nth-child(94)::after {
+    content: "C";
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+div div:nth-child(5)::after,
+div div:nth-child(95)::after {
+    content: "D";
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+div div:nth-child(6)::after,
+div div:nth-child(96)::after {
+    content: "E";
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+div div:nth-child(7)::after,
+div div:nth-child(97)::after {
+    content: "F";
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+div div:nth-child(8)::after,
+div div:nth-child(98)::after {
+    content: "G";
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+div div:nth-child(9)::after,
+div div:nth-child(99)::after {
+    content: "H";
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.c1:after {
+    content: '1';
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.c2:after {
+    content: '2';
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.c3:after {
+    content: '3';
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.c4:after {
+    content: '4';
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.c5:after {
+    content: '5';
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.c6:after {
+    content: '6';
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.c7:after {
+    content: '7';
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.c8:after {
+    content: '8';
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
