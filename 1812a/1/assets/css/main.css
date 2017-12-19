@@ -1,0 +1,55 @@
+.wrapper {
+	width: 50px;
+	margin: 0 auto;
+}
+
+ul {
+	display: flex;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+	padding: 12px;
+}
+
+#one {
+	height: 100px;
+	width: 100px;
+	background-color: #FF0000;
+}
+
+#two {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	background-color: #000CFF;
+}
+
+#three {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #F0FF00;
+}
+
+#one:target,
+#two:target,
+#three:target {
+	display: block;
+}
+
+#one:not(:target),
+#two:not(:target),
+#three:not(:target) {
+	display: none;
+}
+
+#one:not(:target) ~ #three {
+	display: block;
+}
+
+#two:target ~ #three {
+	display: none;
+}
