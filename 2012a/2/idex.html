@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+        var info = [];
+        info.push(prompt('Введите имя'));
+        info.push(prompt('Введите фамилию'));
+        info.push(prompt('Введите отчество'));
+        alert(info.pop());
+        alert(info.pop());
+        alert(info.pop());
+        console.log(info);
+        info.push(prompt('Введите имя'));
+        info.push(prompt('Введите фамилию'));
+        info.push(prompt('Введите отчество'));
+        alert(info.shift());
+        alert(info.shift());
+        alert(info.shift());
+        console.log(info);
+    </script>
+</body>
+</html>
